@@ -1,0 +1,99 @@
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+
+}
+#container {
+    justify-content: center;
+    width: 500px;
+    height: 360px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+#container img {
+    width: 150px;
+    height: 150px;
+    margin-top: -70px;
+    margin-bottom: 30px;
+    
+    
+}
+
+input {
+    height: 40px;
+    width: 60%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding-left: 40px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+
+input.email {
+    border: 1.5px solid black;
+    margin-bottom: 30px;    
+    background-color: #e6e3e3;
+
+}
+
+input.senha {
+    border: 1.5px solid black;
+    margin-bottom: 35px; 
+    background-color: #e6e3e3;
+ 
+}
+
+input::placeholder {
+ color: black;
+}
+input.submit {
+    color: black;
+    font-size: 30px;
+    background-color: #0ba2f1;
+    -webkit-border-radius:  10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px 20px;
+    height: 55px;
+    width: 70%;
+}
+
+
+@media(max-width: 555px) {
+    #container {
+        justify-content: center;
+        width: 400px;
+        height: 360px;
+        border: 1px solid black;
+        background-color: whitesmoke;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15%;
+        margin-bottom: 30%;
+    
+    }
+
+}
