@@ -21,3 +21,23 @@ body {
 
 
 }
+#container img {
+    width: 150px;
+    height: 150px;
+    margin-top: -70px;
+    margin-bottom: 30px;
+    
+    
+}
+
+input {
+    height: 40px;
+    width: 60%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding-left: 40px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
