@@ -12,7 +12,38 @@
 <body>
     <header>
 
+        <nav class="cabecalho">
+            <ul class="menu">
+                <li>
+                    <a href="index.html"><img src="../img/logo1.png"></a>
+                </li>
+                <li>
+                    <a href="index.html">Meus Chamados</a>
+                </li>
+                <li>
+                    <a href="./pages/games.html">Criar Chamados</a>
+                </li>
 
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div>
+            <form action="..." enctype="multipart/form-data" method="post" id="form_chamado">
+                <p>Endereço:</p>
+                <input type="text" name="endereco" id="endereco" />
+                <p>Tipo de Guincho:</p>
+                <input type="text" name="guincho" id="guincho" />
+                <p>Veículo:</p>
+                <input type="text" name="veiculo" id="veiculo" />
+                <p>Descrição da situação do veículo:</p>
+                <textarea name="descricao" id="descricao" cols="60" rows="5"></textarea><br>
+                <button class="botao_enviar">Enviar</button>
+            </form>
+        </div>
+
+    </section>
 
 
 </body>
