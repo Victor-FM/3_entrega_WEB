@@ -41,3 +41,10 @@ input {
     background-repeat: no-repeat;
     background-position: 10px;
 }
+
+input.email,input.senha  {
+    border: 1.5px solid black;
+    margin-bottom: 30px;    
+    background-color: #e6e3e3;
+
+}
