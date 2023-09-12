@@ -1,5 +1,7 @@
+
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+    
 }
 
 #logo {
@@ -21,6 +23,7 @@ body {
 
 
 }
+
 #container img {
     width: 150px;
     height: 150px;
@@ -42,17 +45,23 @@ input {
     background-position: 10px;
 }
 
-input.email,input.senha  {
+input.email {
     border: 1.5px solid black;
     margin-bottom: 30px;    
     background-color: #e6e3e3;
 
 }
 
-input::placeholder {
-    color: black;
+input.senha {
+    border: 1.5px solid black;
+    margin-bottom: 35px; 
+    background-color: #e6e3e3;
+ 
 }
 
+input::placeholder {
+ color: black;
+}
 input.submit {
     color: black;
     font-size: 30px;
@@ -65,6 +74,7 @@ input.submit {
     height: 55px;
     width: 70%;
 }
+
 
 @media(max-width: 555px) {
     #container {
@@ -87,4 +97,3 @@ input.submit {
     }
 
 }
-
