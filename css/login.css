@@ -48,3 +48,20 @@ input.email,input.senha  {
     background-color: #e6e3e3;
 
 }
+
+input::placeholder {
+    color: black;
+}
+
+input.submit {
+    color: black;
+    font-size: 30px;
+    background-color: #0ba2f1;
+    -webkit-border-radius:  10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px 20px;
+    height: 55px;
+    width: 70%;
+}
